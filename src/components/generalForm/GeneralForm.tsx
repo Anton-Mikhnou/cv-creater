@@ -1,7 +1,12 @@
 import style from './GeneralForm.module.scss'
-// import { General } from '../main/main'
+import { General } from '../main/main'
 
-export default function GeneralForm({general, setGeneral}) {
+interface GeneralProps {
+    general: General,
+    setGeneral: React.Dispatch<React.SetStateAction<General>>,
+}
+
+export default function GeneralForm({general, setGeneral}: GeneralProps) {
     return (
         <>
             <div className={style['container-generalForm']}>
@@ -17,7 +22,7 @@ export default function GeneralForm({general, setGeneral}) {
                 </label>
 
                 <label htmlFor='title'>
-                    title:
+                    Title:
                     <input type='text' id='title' onChange={e => setGeneral({...general, title: e.target.value})}/>
                 </label>
 
