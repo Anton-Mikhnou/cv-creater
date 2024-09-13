@@ -1,4 +1,4 @@
-import style from './educationceCv.module.scss'
+import style from './EducationceCv.module.scss'
 import { Educationce } from '../main/MainContent'
 
 export default function educationceCv(props: {educationce: Educationce}) {
