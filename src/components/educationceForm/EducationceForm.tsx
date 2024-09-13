@@ -1,5 +1,5 @@
 import style from './EducationceForm.module.scss'
-import { Educationce } from '../main/main'
+import { Educationce } from '../main/MainContent'
 
 interface EducationceProps {
     educationce: Educationce,

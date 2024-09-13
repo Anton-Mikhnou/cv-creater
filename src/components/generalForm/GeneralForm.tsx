@@ -1,5 +1,5 @@
 import style from './GeneralForm.module.scss'
-import { General } from '../main/main'
+import { General } from '../main/MainContent'
 
 interface GeneralProps {
     general: General,

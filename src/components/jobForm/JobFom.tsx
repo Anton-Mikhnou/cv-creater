@@ -1,5 +1,5 @@
 import style from './JobForm.module.scss'
-import { Job } from '../main/main'
+import { Job } from '../main/MainContent'
 
 interface JobProps {
     job: Job,

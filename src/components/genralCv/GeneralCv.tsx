@@ -1,5 +1,5 @@
 import style from './GeneralCv.module.scss';
-import { General } from '../main/main';
+import { General } from '../main/MainContent';
 
 
 export default function GeneralCv(props: {general: General}) {

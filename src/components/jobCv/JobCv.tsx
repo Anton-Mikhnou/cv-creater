@@ -1,5 +1,5 @@
 import style from './JobCv.module.scss';
-import { Job } from '../main/main';
+import { Job } from '../main/MainContent';
 
 export default function JobCv({job}: {job: Job}) {
     return (

@@ -1,4 +1,4 @@
-import main from './main.module.scss';
+import main from './MainContent.module.scss';
 import GeneralForm from '../generalForm/GeneralForm';
 import GeneralCv from '../genralCv/GeneralCv';
 import { useState } from 'react';
