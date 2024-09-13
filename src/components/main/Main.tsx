@@ -48,10 +48,10 @@ export default function Main() {
 
     const [job, setJob] = useState<Job>({
         companyName: 'Name',
-        positionTitle: 'position Title',
-        responsibilities: 'responsibilities',
-        start: 'start',
-        end: 'end',
+        positionTitle: 'Position Title',
+        responsibilities: 'Responsibilities',
+        start: '00.00.0000',
+        end: '00.00.0000',
     })
 
     return (

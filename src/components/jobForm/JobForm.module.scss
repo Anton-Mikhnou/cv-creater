@@ -1,5 +1,8 @@
 .container{
-    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    background-color: #009b95;
+    padding: 15px;
+    border-radius: 10px;
 }

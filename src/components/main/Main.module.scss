@@ -1,7 +1,6 @@
 .container-main {
     display: flex;
     justify-content: center;
-    background-color: goldenrod;
 }
 
 .container-main__form {
@@ -17,4 +16,7 @@
     flex-direction: column;
     width: 60%;
     padding: 20px 40px;
+    background-color: #fff;
+    border-left: dashed lightgray;
+    gap: 20px;
 }
